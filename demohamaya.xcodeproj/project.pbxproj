@@ -16,6 +16,10 @@
 		E1021D6A252DF87700113E03 /* demohamayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1021D69252DF87700113E03 /* demohamayaTests.swift */; };
 		E1021D75252DF87700113E03 /* demohamayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1021D74252DF87700113E03 /* demohamayaUITests.swift */; };
 		E1021D86252DF9E700113E03 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1021D85252DF9E700113E03 /* Icon.xcassets */; };
+		E1A41CDA252EDB3900791D75 /* spreadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41CD8252EDB3900791D75 /* spreadTableViewCell.swift */; };
+		E1A41CDB252EDB3900791D75 /* spreadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A41CD9252EDB3900791D75 /* spreadTableViewCell.xib */; };
+		E1A41CE9252EDB8C00791D75 /* SinglelineTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41CE7252EDB8C00791D75 /* SinglelineTVC.swift */; };
+		E1A41CEA252EDB8C00791D75 /* SinglelineTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A41CE8252EDB8C00791D75 /* SinglelineTVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		E1021D74252DF87700113E03 /* demohamayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demohamayaUITests.swift; sourceTree = "<group>"; };
 		E1021D76252DF87700113E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1021D85252DF9E700113E03 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		E1A41CD8252EDB3900791D75 /* spreadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spreadTableViewCell.swift; sourceTree = "<group>"; };
+		E1A41CD9252EDB3900791D75 /* spreadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = spreadTableViewCell.xib; sourceTree = "<group>"; };
+		E1A41CE7252EDB8C00791D75 /* SinglelineTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglelineTVC.swift; sourceTree = "<group>"; };
+		E1A41CE8252EDB8C00791D75 /* SinglelineTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SinglelineTVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		E1021D51252DF87300113E03 /* demohamaya */ = {
 			isa = PBXGroup;
 			children = (
+				E1A41CD4252ED94800791D75 /* customclass */,
 				E1021D52252DF87300113E03 /* AppDelegate.swift */,
 				E1021D54252DF87300113E03 /* SceneDelegate.swift */,
 				E1021D56252DF87300113E03 /* ViewController.swift */,
@@ -129,6 +138,17 @@
 				E1021D76252DF87700113E03 /* Info.plist */,
 			);
 			path = demohamayaUITests;
+			sourceTree = "<group>";
+		};
+		E1A41CD4252ED94800791D75 /* customclass */ = {
+			isa = PBXGroup;
+			children = (
+				E1A41CD8252EDB3900791D75 /* spreadTableViewCell.swift */,
+				E1A41CD9252EDB3900791D75 /* spreadTableViewCell.xib */,
+				E1A41CE7252EDB8C00791D75 /* SinglelineTVC.swift */,
+				E1A41CE8252EDB8C00791D75 /* SinglelineTVC.xib */,
+			);
+			path = customclass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +257,8 @@
 				E1021D5F252DF87600113E03 /* LaunchScreen.storyboard in Resources */,
 				E1021D5C252DF87600113E03 /* Assets.xcassets in Resources */,
 				E1021D86252DF9E700113E03 /* Icon.xcassets in Resources */,
+				E1A41CEA252EDB8C00791D75 /* SinglelineTVC.xib in Resources */,
+				E1A41CDB252EDB3900791D75 /* spreadTableViewCell.xib in Resources */,
 				E1021D5A252DF87300113E03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1021D57252DF87300113E03 /* ViewController.swift in Sources */,
+				E1A41CE9252EDB8C00791D75 /* SinglelineTVC.swift in Sources */,
 				E1021D53252DF87300113E03 /* AppDelegate.swift in Sources */,
+				E1A41CDA252EDB3900791D75 /* spreadTableViewCell.swift in Sources */,
 				E1021D55252DF87300113E03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
